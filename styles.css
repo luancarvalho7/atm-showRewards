@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #010513;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.page {
+    padding: 20px;
+}
+
+.page.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#rewards-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.reward-item {
+    background: linear-gradient(180deg, #252B52 0%, #00000000 100%);
+    border: solid 2px #252B52;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.reward-item:hover {
+    background-color: black;
+}
+
+.reward-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#reward-content {
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    line-height: 1.6;
+    overflow: hidden;
+    color: white;
+}
